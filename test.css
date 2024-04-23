@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: rgb(17, 17, 129);
+
+    text-align: center;
+}
+
+h2 {
+    color: rgb(10, 10, 112);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+body {
+    background-color: white;
+    color: rgb(14, 11, 11);
+    margin: 0px;
+    padding: 0px;
+}
+
+.flotant {
+    float: left;
+}
+
+.bas {
+    clear: both;
+}
+
+a {
+    color: rgb(144, 92, 228);
+}
+
+a:hover {
+    color: rgb(6, 255, 60);
+    font-weight: bold;
+}
+
+a:focus {
+    color: rgb(255, 0, 0);
+}
+
+article {
+    border: 2px rgb(33, 57, 163) groove;
+    padding: 10px;
+}
+
+aside {
+    border: 2px rgb(22, 78, 161) groove;
+    margin: 1px;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(1, 11, 54);
+    color: white;
+    height: 90px;
+    margin-bottom: 0px;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer img {
+    text-align: center;
+    display: flex;
+    max-width: 20px;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+figcaption {
+    text-decoration: underline;
+    color: rgb(33, 5, 109);
+}
+
+.tas {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+nav {
+    background-color: rgb(1, 11, 54);
+    padding: 10px;
+    height: 90px;
+    font-size: 20px;
+}
+
+nav img {
+    max-width: 60px;
+    float: left;
+
+    margin-left: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+
+    float: left;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    transition: all 0.7s ease;
+    text-align: center;
+}
+
+button {
+    height: 30px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.vid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.one {
+    height: 300px;
+    width: 400px;
+}
+
+.twp {
+    height: 300px;
+    width: 400px;
+}
+
+.up {
+    display: flex;
+    justify-content: flex-end;
+    scroll-behavior: auto;
+}
+
+.exp img {
+    max-width: 30px;
+
+}
+
+input:focus {
+    background-color: rgb(121, 189, 245);
+}
+
+input:hover {
+    background-color: rgb(121, 189, 245);
+}
+
+button:hover {
+    background: rgb(121, 189, 245);
+    ;
+
+}
+
+.fin {
+    text-align: center;
+}
+
+fieldset {
+    width: 50%;
+}
+
+.btn {
+    background-color: rgb(54, 37, 87);
+    color: rgb(252, 250, 250);
+    height: 1cm;
+    width: 3cm;
+}
+
+
+.btn:hover {
+    letter-spacing: 1px;
+    transition: 0.2s;
+    background: rgb(104, 48, 214);
+    cursor: pointer;
+
+}
+
+#pays {
+    height: 1cm;
+    width: 7cm;
+}
+
+.dif {
+    width: 190px;
+    height: 30px;
+}
+
+img{
+    border-radius: 50% 50%;
+}
+
+
+@media (max-width: 991px) {
+    body {
+        margin: 20px;
+    }
+
+    .flotant {
+        max-width: 50%;
+    }
+
+    nav input {
+        width: 30px;
+    }
+
+    nav button {
+        width: 70px;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        text-decoration: none;
+        width: 100px;
+        transition: all 0.7s ease;
+        text-align: center;
+    }
+
+    nav input button {
+        padding-top: 2px;
+        line-height: .2em;
+        max-width: 25%;
+        border-radius: 2px;
+        margin-right: 0px;
+    }
+
+    nav img {
+        max-width: 30px;
+
+    }
+
+    a {
+        display: inline-block;
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    .dif {
+        display: inline-block;
+
+    }
+
+    nav input {
+        width: 15%;
+    }
+
+
+}
